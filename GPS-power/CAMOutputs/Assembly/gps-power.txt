@@ -1,0 +1,17 @@
+Partlist exported from /Users/suhyouri/Documents/EAGLE/projects/GPS/GPS-power/gps-power.sch at 2022/01/27 3:03 PM
+
+Qty Value           Device            Package         Parts                         Description                                                             MF MPN      OC_FARNELL OC_NEWARK POPULARITY PROD_ID   SPICEPREFIX VALUE
+2                   10-XX             B3F-10XX        S2, S5                        OMRON SWITCH                                                               B3F-1000 176432     36M3542   72                                    
+3                   LEDCHIPLED_0603   CHIPLED_0603    LED, LED1, LED2               LED                                                                                                                                            
+3   0.1uF           0.1UF-0603-25V-5% 0603            C1, C2, C3                    0.1µF ceramic capacitors                                                                                            CAP-08604             0.1uF
+1   1.47k           R-US_R0603        R0603           R1                            RESISTOR, American symbol                                                                                77                   R                
+7   100             R-US_R0603        R0603           R3, R4, R5, R6, R12, R13, R14 RESISTOR, American symbol                                                                                77                   R                
+3   10k             R-US_R0603        R0603           R9, R16, R17                  RESISTOR, American symbol                                                                                77                   R                
+3   1k              R-US_R0603        R0603           R2, R7, R8                    RESISTOR, American symbol                                                                                77                   R                
+1   ADA-GPS         ADA-GPS           ADA-GPS         U$2                           Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3                                                                        
+1   GPIO-HD-2X20    GPIO-HD-2X20      GPIO-HD-2X20    U$1                           GPIO Header for RaspberryPi A+/B+/Pi 2/Pi 3 - Tall 2x20 Female Header                                                                          
+2   MKDSN1,5/2-5,08 MKDSN1,5/2-5,08   MKDSN1,5/2-5,08 5V, 12V                       MKDSN 1,5/ 2-5,08 Printklemme                                                                            14                                    
+4   MOUNT-HOLE3.2   MOUNT-HOLE3.2     3,2             H1, H2, H3, H4                MOUNTING HOLE with drill center marker                                                                   7                                     
+1   OKX-T3-D12      OKX-T3-D12        OKX-T3-D12      U1                            Murata OKX-T/3-D12N-C                                                                                                                          
+1   PIC16(L)F18325  PIC16(L)F18325    DIP-S-14        U$3                           PIC16(L)F18325                                                                                                                                 
+3   PIN-5           PIN-5             PIN-5           8,9,10,11,GND, GND, MPLAB     Pin Header 1x5                                                                                                                                 

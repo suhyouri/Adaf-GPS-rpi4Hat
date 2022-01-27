@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="GPS-PA6H1F1525">
+<description>GPS-PA6H1F1525</description>
+<pad name="P$1" x="0" y="0" drill="2.286"/>
+<pad name="P$2" x="0" y="20.32" drill="2.286"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="0" width="0.127" layer="20"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.127" layer="20" curve="-90"/>
+<wire x1="-31.496" y1="20.828" x2="-31.496" y2="-0.508" width="0.127" layer="20"/>
+<wire x1="-31.496" y1="-0.508" x2="-29.464" y2="-2.54" width="0.127" layer="20" curve="90"/>
+<wire x1="-29.464" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="20"/>
+<wire x1="2.54" y1="20.32" x2="0" y2="22.86" width="0.127" layer="20" curve="90"/>
+<wire x1="0" y1="22.86" x2="-29.464" y2="22.86" width="0.127" layer="20"/>
+<wire x1="-29.464" y1="22.86" x2="-31.496" y2="20.828" width="0.127" layer="20" curve="90"/>
+<pad name="PPS" x="-29.464" y="0" drill="1.27"/>
+<pad name="VIN" x="-29.464" y="2.54" drill="1.27"/>
+<pad name="GND" x="-29.464" y="5.08" drill="1.27"/>
+<pad name="RX" x="-29.464" y="7.62" drill="1.27"/>
+<pad name="TX" x="-29.464" y="10.16" drill="1.27"/>
+<pad name="FIX" x="-29.464" y="12.7" drill="1.27"/>
+<pad name="VBAT" x="-29.464" y="15.24" drill="1.27"/>
+<pad name="EN" x="-29.464" y="17.78" drill="1.27"/>
+<pad name="3.3V" x="-29.464" y="20.32" drill="1.27"/>
+</package>
+<package name="DIP-S-14">
+<description>PIC16(L)F18325&lt;br&gt;</description>
+<pad name="P$7" x="0" y="0" drill="1.04" diameter="2"/>
+<pad name="P$6" x="0" y="2.54" drill="1.04" diameter="2"/>
+<pad name="P$5" x="0" y="5.08" drill="1.04" diameter="2"/>
+<pad name="P$4" x="0" y="7.62" drill="1.04" diameter="2"/>
+<pad name="P$3" x="0" y="10.16" drill="1.04" diameter="2"/>
+<pad name="P$2" x="0" y="12.7" drill="1.04" diameter="2"/>
+<pad name="P$1" x="0" y="15.24" drill="1.04" diameter="2" shape="square"/>
+<pad name="P$8" x="9.652" y="0" drill="1.04" diameter="2"/>
+<pad name="P$9" x="9.652" y="2.54" drill="1.04" diameter="2"/>
+<pad name="P$10" x="9.652" y="5.08" drill="1.04" diameter="2"/>
+<pad name="P$11" x="9.652" y="7.62" drill="1.04" diameter="2"/>
+<pad name="P$12" x="9.652" y="10.16" drill="1.04" diameter="2"/>
+<pad name="P$13" x="9.652" y="12.7" drill="1.04" diameter="2"/>
+<pad name="P$14" x="9.652" y="15.24" drill="1.04" diameter="2"/>
+<text x="0" y="17.78" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="16.51" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="NEO-M8N">
+<description>NEO-M8N MINI&lt;br&gt;
+&lt;br&gt;
+https://www.gnss.store/gnss-gps-modules/85-ublox-mini-neo-m8n-gps-gnss-lis3mdl-compass-triple-band-ant.html</description>
+<pad name="2" x="0" y="2.54" drill="1.02" diameter="2"/>
+<pad name="3" x="0" y="5.08" drill="1.02" diameter="2"/>
+<pad name="4" x="0" y="7.62" drill="1.02" diameter="2"/>
+<pad name="5" x="0" y="10.16" drill="1.02" diameter="2"/>
+<pad name="6" x="0" y="12.7" drill="1.02" diameter="2"/>
+<wire x1="2" y1="18.7" x2="-34" y2="18.7" width="0.127" layer="21"/>
+<wire x1="-34" y1="18.7" x2="-34" y2="-17" width="0.127" layer="21"/>
+<wire x1="-34" y1="-17" x2="2" y2="-17" width="0.127" layer="21"/>
+<wire x1="2" y1="-17" x2="2" y2="18.7" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.04" diameter="2" shape="square"/>
+<text x="-33.02" y="21.59" size="1.27" layer="21">&gt;NAME</text>
+<text x="-33.02" y="20.32" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="PIN-5">
+<description>Pin Header 1x5 
+2.54mm(1in) pitch</description>
+<pad name="P$1" x="0" y="0" drill="1.02" diameter="1.6764" shape="square"/>
+<pad name="P$2" x="0" y="-2.54" drill="1.02" diameter="1.6764"/>
+<pad name="P$3" x="0" y="-5.08" drill="1.02" diameter="1.6764"/>
+<pad name="P$4" x="0" y="-7.62" drill="1.02" diameter="1.6764"/>
+<pad name="P$5" x="0" y="-10.16" drill="1.02" diameter="1.6764"/>
+<text x="-1.27" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.27" y="2.54" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="PIN-6">
+<pad name="P$1" x="0" y="0" drill="1.02" diameter="1.8" shape="square"/>
+<pad name="P$2" x="0" y="-2.54" drill="1.02" diameter="1.8"/>
+<pad name="P$3" x="0" y="-5.08" drill="1.02" diameter="1.8"/>
+<pad name="P$4" x="0" y="-7.62" drill="1.02" diameter="1.8"/>
+<pad name="P$5" x="0" y="-10.16" drill="1.02" diameter="1.8"/>
+<pad name="P$6" x="0" y="-12.7" drill="1.02" diameter="1.8"/>
+<text x="-1.27" y="2.54" size="1.27" layer="21">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="ADA-GPS">
+<description>Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3&lt;br&gt;
+&lt;br&gt;
+https://www.adafruit.com/product/746&lt;br&gt;</description>
+<pad name="2" x="0" y="-2.54" drill="1.02" diameter="2"/>
+<pad name="3" x="0" y="-5.08" drill="1.02" diameter="2"/>
+<pad name="4" x="0" y="-7.62" drill="1.02" diameter="2"/>
+<pad name="5" x="0" y="-10.16" drill="1.02" diameter="2"/>
+<pad name="6" x="0" y="-12.7" drill="1.02" diameter="2"/>
+<pad name="7" x="0" y="-15.24" drill="1.02" diameter="2"/>
+<pad name="8" x="0" y="-17.78" drill="1.02" diameter="2"/>
+<pad name="9" x="0" y="-20.32" drill="1.02" diameter="2"/>
+<pad name="1" x="0" y="0" drill="1.02" diameter="2" shape="square"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-22.86" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-22.86" x2="32.004" y2="-22.86" width="0.127" layer="21"/>
+<wire x1="32.004" y1="-22.86" x2="32.004" y2="2.032" width="0.127" layer="21"/>
+<wire x1="32.004" y1="2.032" x2="-2.032" y2="2.032" width="0.127" layer="21"/>
+<hole x="29.464" y="0" drill="2.286"/>
+<hole x="29.464" y="-20.32" drill="2.286"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GPS-PA6H1F1525">
+<description>Adafruit Ultimate GPS&lt;br&gt;
+
+https://learn.adafruit.com/adafruit-ultimate-gps/direct-computer-wiring&lt;br&gt;</description>
+<wire x1="10.16" y1="0" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<pin name="1-3.3V" x="-12.7" y="22.86" length="short"/>
+<pin name="2-EN" x="-12.7" y="20.32" length="short"/>
+<pin name="3-VBAT" x="-12.7" y="17.78" length="short"/>
+<pin name="4-FIX" x="-12.7" y="15.24" length="short"/>
+<pin name="5-TX" x="-12.7" y="12.7" length="short"/>
+<pin name="6-RX" x="-12.7" y="10.16" length="short"/>
+<pin name="7-GND" x="-12.7" y="7.62" length="short"/>
+<pin name="8-VIN" x="-12.7" y="5.08" length="short"/>
+<pin name="9-PPS" x="-12.7" y="2.54" length="short"/>
+<text x="-10.16" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PIC16F18325">
+<description>PIC16(L)F18325&lt;br&gt;
+&lt;br&gt;
+14-PIN PDIP, SOIC, TSSOP&lt;br&gt;
+https://www.microchip.com/wwwproducts/en/PIC16F18325&lt;br&gt;
+https://ww1.microchip.com/downloads/en/devicedoc/40001795e.pdf&lt;br&gt;</description>
+<wire x1="17.78" y1="0" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="20.32" x2="-20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<pin name="VDD" x="-22.86" y="17.78" length="short"/>
+<pin name="RA5" x="-22.86" y="15.24" length="short"/>
+<pin name="RA4" x="-22.86" y="12.7" length="short"/>
+<pin name="MCLR" x="-22.86" y="10.16" length="short"/>
+<pin name="RX" x="-22.86" y="7.62" length="short"/>
+<pin name="TX" x="-22.86" y="5.08" length="short"/>
+<pin name="GPIO" x="-22.86" y="2.54" length="short"/>
+<pin name="RC2" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="RC1" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="RC0" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="RA2" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="ICSPCLK" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="ISCPDAT" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="VSS(GND)" x="20.32" y="17.78" length="short" rot="R180"/>
+<text x="-20.32" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-20.32" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="NEO-M8N">
+<description>NEO-M8N Mini GPS GNSS + LIS3MDL Compass Triple Band ANT
+
+
+https://www.gnss.store/gnss-gps-modules/85-ublox-mini-neo-m8n-gps-gnss-lis3mdl-compass-triple-band-ant.html</description>
+<wire x1="7.62" y1="0" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<pin name="5V" x="-10.16" y="15.24" length="short"/>
+<pin name="GND" x="-10.16" y="12.7" length="short"/>
+<pin name="TX" x="-10.16" y="10.16" length="short"/>
+<pin name="RX" x="-10.16" y="7.62" length="short"/>
+<pin name="SCL" x="-10.16" y="5.08" length="short"/>
+<pin name="SDA" x="-10.16" y="2.54" length="short"/>
+<text x="-9.906" y="20.828" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="18.796" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="MPLAB">
+<description>MPLAB Pickit4 Debugger&lt;br&gt;
+&lt;br&gt;
+https://www.microchip.com/en-us/development-tool/PG164140</description>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1-MCLR" x="2.54" y="12.7" length="short" rot="R180"/>
+<pin name="2-VDD" x="2.54" y="10.16" length="short" rot="R180"/>
+<pin name="3-GND" x="2.54" y="7.62" length="short" rot="R180"/>
+<pin name="4-PGD" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="5-PGC" x="2.54" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="PIN1X6">
+<description>Pin Header 1x6&lt;br&gt;
+2.54mm - 1inch pitch</description>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="5.08" y="15.24" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="12.7" length="short" rot="R180"/>
+<pin name="3" x="5.08" y="10.16" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="7.62" length="short" rot="R180"/>
+<pin name="5" x="5.08" y="5.08" length="short" rot="R180"/>
+<pin name="6" x="5.08" y="2.54" length="short" rot="R180"/>
+<wire x1="2.54" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ADA-">
+<description>Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3&lt;br&gt;
+&lt;br&gt;
+https://www.adafruit.com/product/746&lt;br&gt;</description>
+<wire x1="12.7" y1="0" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="25.4" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<pin name="3.3" x="-15.24" y="22.86" length="short"/>
+<pin name="EN" x="-15.24" y="20.32" length="short"/>
+<pin name="VBAT" x="-15.24" y="17.78" length="short"/>
+<pin name="FIX" x="-15.24" y="15.24" length="short"/>
+<pin name="TX" x="-15.24" y="12.7" length="short"/>
+<pin name="RX" x="-15.24" y="10.16" length="short"/>
+<pin name="GND" x="-15.24" y="7.62" length="short"/>
+<pin name="VIN" x="-15.24" y="5.08" length="short"/>
+<pin name="PPS" x="-15.24" y="2.54" length="short"/>
+</symbol>
+<symbol name="1X5">
+<description>Pin Header 1x5&lt;br&gt;
+2.54mm(1in)</description>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="12.7" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="10.16" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="7.62" length="short" rot="R180"/>
+<pin name="4" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="5" x="2.54" y="2.54" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GPS-PA6H1F1525">
+<description>GPS-PA6H1F1525&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="GPS-PA6H1F1525" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPS-PA6H1F1525">
+<connects>
+<connect gate="G$1" pin="1-3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="2-EN" pad="EN"/>
+<connect gate="G$1" pin="3-VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="4-FIX" pad="FIX"/>
+<connect gate="G$1" pin="5-TX" pad="TX"/>
+<connect gate="G$1" pin="6-RX" pad="RX"/>
+<connect gate="G$1" pin="7-GND" pad="GND"/>
+<connect gate="G$1" pin="8-VIN" pad="VIN"/>
+<connect gate="G$1" pin="9-PPS" pad="PPS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC16(L)F18325">
+<description>PIC16(L)F18325&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="PIC16F18325" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP-S-14">
+<connects>
+<connect gate="G$1" pin="GPIO" pad="P$7"/>
+<connect gate="G$1" pin="ICSPCLK" pad="P$12"/>
+<connect gate="G$1" pin="ISCPDAT" pad="P$13"/>
+<connect gate="G$1" pin="MCLR" pad="P$4"/>
+<connect gate="G$1" pin="RA2" pad="P$11"/>
+<connect gate="G$1" pin="RA4" pad="P$3"/>
+<connect gate="G$1" pin="RA5" pad="P$2"/>
+<connect gate="G$1" pin="RC0" pad="P$10"/>
+<connect gate="G$1" pin="RC1" pad="P$9"/>
+<connect gate="G$1" pin="RC2" pad="P$8"/>
+<connect gate="G$1" pin="RX" pad="P$5"/>
+<connect gate="G$1" pin="TX" pad="P$6"/>
+<connect gate="G$1" pin="VDD" pad="P$1"/>
+<connect gate="G$1" pin="VSS(GND)" pad="P$14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIN-5">
+<description>Pin Header 1x5&lt;br&gt;
+2.54mm(1in)</description>
+<gates>
+<gate name="G$1" symbol="1X5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIN-5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NEO-M8N">
+<description>NEO-M8N MINI&lt;br&gt;
+&lt;br&gt;
+https://www.gnss.store/gnss-gps-modules/85-ublox-mini-neo-m8n-gps-gnss-lis3mdl-compass-triple-band-ant.html</description>
+<gates>
+<gate name="NEOM8N" symbol="NEO-M8N" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="NEO-M8N">
+<connects>
+<connect gate="NEOM8N" pin="5V" pad="1"/>
+<connect gate="NEOM8N" pin="GND" pad="2"/>
+<connect gate="NEOM8N" pin="RX" pad="4"/>
+<connect gate="NEOM8N" pin="SCL" pad="5"/>
+<connect gate="NEOM8N" pin="SDA" pad="6"/>
+<connect gate="NEOM8N" pin="TX" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADA-GPS">
+<description>Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - Version 3&lt;br&gt;
+&lt;br&gt;
+https://www.adafruit.com/product/746&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADA-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADA-GPS">
+<connects>
+<connect gate="G$1" pin="3.3" pad="1"/>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FIX" pad="4"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="PPS" pad="9"/>
+<connect gate="G$1" pin="RX" pad="6"/>
+<connect gate="G$1" pin="TX" pad="5"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEBUG">
+<gates>
+<gate name="G$1" symbol="1X5" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIN-5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
