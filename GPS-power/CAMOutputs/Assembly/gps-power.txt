@@ -1,7 +1,7 @@
-Partlist exported from /Users/suhyouri/Documents/EAGLE/projects/GPS/GPS-power/gps-power.sch at 2022/01/27 3:03 PM
+Partlist exported from /Users/suhyouri/Documents/EAGLE/projects/GPS/GPS-power/gps-power.sch at 2022/02/01 5:53 PM
 
 Qty Value           Device            Package         Parts                         Description                                                             MF MPN      OC_FARNELL OC_NEWARK POPULARITY PROD_ID   SPICEPREFIX VALUE
-2                   10-XX             B3F-10XX        S2, S5                        OMRON SWITCH                                                               B3F-1000 176432     36M3542   72                                    
+2                   10-XX             B3F-10XX        S1, S2                        OMRON SWITCH                                                               B3F-1000 176432     36M3542   72                                    
 3                   LEDCHIPLED_0603   CHIPLED_0603    LED, LED1, LED2               LED                                                                                                                                            
 3   0.1uF           0.1UF-0603-25V-5% 0603            C1, C2, C3                    0.1µF ceramic capacitors                                                                                            CAP-08604             0.1uF
 1   1.47k           R-US_R0603        R0603           R1                            RESISTOR, American symbol                                                                                77                   R                
