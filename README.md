@@ -1,6 +1,9 @@
 # Adaf-GPS-rpi4Hat
-rpi4Hat for Adafruit Ultimate GPS, DC-DC converter 12V to 5V, PIC16F18325 
-
+<br>
+rpi4Hat for Adafruit Ultimate GPS, DC-DC converter 12V to 5V, PIC16F18325 <br>
+<br>
+Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates - PA1616S https://www.adafruit.com/product/746 
+<br>
 [gps-power_sch.pdf](https://github.com/suhyouri/Adaf-GPS-rpi4Hat/files/7948000/gps-power_sch.pdf)<br>
 [gps-power_brd.pdf](https://github.com/suhyouri/Adaf-GPS-rpi4Hat/files/7948001/gps-power_brd.pdf)<br>
 <br>
